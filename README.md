@@ -19,11 +19,11 @@
       text-align: center;
     }
   </style>
-  <a download="client.py">
+  <a href="client.py">
     <center><button class="block"><b>Python Client Download</b></button></center>
   </a>
   <br>
-  <a download="server.py">
+  <a href="server.py">
     <center><button class="block"><b>Python Server Download</b></button></center>
   </a>
   <br>

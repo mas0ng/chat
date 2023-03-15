@@ -1,1 +1,38 @@
+<html>
 
+<head>
+  <title>Home Page</title>
+</head>
+
+<body style="background-color:gray;">
+  <h1 style="text-align:center;">Python Chat</h1>
+  <style>
+    .block {
+      display: block;
+      width: 50%;
+      border: none;
+      background-color: white;
+      color: gray;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+  </style>
+  <a download="client.py">
+    <center><button class="block"><b>Python Client Download</b></button></center>
+  </a>
+  <br>
+  <a download="server.py">
+    <center><button class="block"><b>Python Server Download</b></button></center>
+  </a>
+  <br>
+   <a onclick="alert1()">
+    <center><button class="block"><b><u>Which should I download</u></b></button></center>
+  </a>
+
+<script>
+function alert1() {
+  alert("What one you download will depend on what you want to use it for. Server: Only 1 person in the chat group will need this but the pereson with this can still send and recieve messages. Server: Only 1 person in the chat will need this.");
+}
+</script>
